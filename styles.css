@@ -1,3 +1,29 @@
-.font-dancing {
-    font-family: 'Dancing Script', sans-serif;
+.img-slide {
+    width: 600px;
+    height: 400px;
+}
+.font-style{
+    color: rgb(255, 255, 255);
+    -webkit-text-stroke: black;
+    -webkit-text-stroke-width: 2px;
+    font-weight: bold;
+}
+.btn-utama{
+    size: 30px;
+    font-size: 30px;
+    padding: 10px;
+    color: white;
+    background-color: #2C3E50;
+    border-color: #2C3E50;
+    align-content: center;
+    text-align: center;
+    font-weight: bold;    
+}
+.card-img{
+    width: 350px;
+    height: 250px;
+}
+.card-body{
+    width: 350px;
+    height: 80px;   
 }
