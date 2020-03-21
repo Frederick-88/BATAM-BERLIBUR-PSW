@@ -1,51 +1,43 @@
 .container-fx {
-    margin-right: 120px;
-    margin-left: 120px;
+    margin-right: 80px;
+    margin-left: 80px;
 }
 
-.img-slide {
-    width: 800px;
-    height: 500px;
+.flex-fx {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
 }
 
-.font-style {
-    color: rgb(255, 255, 255);
-    -webkit-text-stroke: black;
-    -webkit-text-stroke-width: 2px;
-    font-weight: bold;
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
 }
 
-.btn-utama {
-    font-size: 30px;
-    padding: 10px;
-    color: white;
-    background-color: black;
-    /* border-color: #2C3E50; */
-    align-content: center;
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+
+.card-hover:hover {
+    opacity: 70%;
+}
+
+.mini-card {
+    background-color: #000000;
+    color: whitesmoke;
+    align-items: center;
     text-align: center;
-    font-weight: bold;
+    font-size: 20px;
+    padding: 1px;
 }
 
-.font-fx {
-    font-family: 'Rubik', sans-serif;
-    font-weight: bold;
-}
-
-/* .card-img{
+.img-size {
     width: 350px;
-    height: 250px;
-} */
-/* .card-body{
-    width: 350px;
-    height: 80px;   
-} */
-.centered {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: 300px;
 }
 
-/* Style the header with a grey background and some padding */
 .header {
     overflow: hidden;
     background-color: rgb(22, 22, 22);
